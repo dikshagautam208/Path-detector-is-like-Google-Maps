@@ -5,12 +5,12 @@ Implemented Aldous-Broder algorithm for generating a uniform spanning maze.
 A-star algorithm is simulated in pygame environment for finding the shortest route possible from source to destination cells
 
 ### How to run?
-**requirements.txt** file contains the necessary python libraries to run the project
-**main.py** => main file with the rendering loop and env, map, solver
-**env.py** => PyGame maze rendering class
-**map.py** => maze generating agent
-**solver.py** => maze solving agent
-**constants.py** => contains run parameters which can be tinkered with
+1. **requirements.txt** - file contains the necessary python libraries to run the project
+2. **main.py** - main file with the rendering loop and env, map, solver
+3. **env.py** - PyGame maze rendering class
+4. **map.py** - maze generating agent
+5. **solver.py** - maze solving agent
+6. **constants.py** - contains run parameters which can be tinkered with
 
 ```
 $> pip install -r requirements.txt
