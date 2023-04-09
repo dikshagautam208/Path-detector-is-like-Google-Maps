@@ -6,6 +6,11 @@ A-star algorithm is simulated in pygame environment for finding the shortest rou
 
 ### How to run?
 **requirements.txt** file contains the necessary python libraries to run the project
+**main.py** => main file with the rendering loop and env, map, solver
+**env.py** => PyGame maze rendering class
+**map.py** => maze generating agent
+**solver.py** => maze solving agent
+**constants.py** => contains run parameters which can be tinkered with
 
 ```
 $> pip install -r requirements.txt
